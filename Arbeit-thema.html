@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Wortschatz-Gym — Bewerbung & Eventmarketing</title>
+<style>
+:root{--ink:#17243b;--muted:#63718a;--paper:#f5f7fb;--card:#fff;--line:#dfe5ef;--blue:#3659d9;--blue2:#edf1ff;--green:#18794e;--greenbg:#e9f8ef;--red:#b42318;--redbg:#fff0ee}
+*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.55 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}header{background:linear-gradient(120deg,#18264b,#3659d9);color:white;padding:34px 20px 28px}header .wrap,main{max-width:1100px;margin:auto}h1{font-size:clamp(2rem,5vw,3.1rem);line-height:1.1;margin:0 0 12px}header p{max-width:760px;margin:0;color:#e4eaff}.eyebrow{text-transform:uppercase;letter-spacing:.12em;font-size:.76rem;font-weight:800;opacity:.8}main{padding:24px 18px 60px}.tabs{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 22px}.tab,button,select,input{font:inherit}.tab{border:1px solid var(--line);background:white;padding:10px 15px;border-radius:999px;cursor:pointer;font-weight:700;color:var(--ink)}.tab.active{background:var(--blue);color:white;border-color:var(--blue)}.panel{display:none}.panel.active{display:block}.section-head{display:flex;justify-content:space-between;align-items:end;gap:12px;flex-wrap:wrap;margin:12px 0 18px}.section-head h2{margin:0;font-size:1.6rem}.muted{color:var(--muted)}.filters{display:flex;gap:8px;flex-wrap:wrap}.filters input,.filters select,.answer-input{border:1px solid var(--line);background:white;padding:10px 12px;border-radius:10px;color:var(--ink)}.vocab-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(245px,1fr));gap:12px}.vocab{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px;box-shadow:0 2px 8px #18264b08}.vocab-top{display:flex;justify-content:space-between;gap:8px;align-items:center}.word{font-size:1.15rem;font-weight:800}.tag{font-size:.72rem;font-weight:800;padding:4px 8px;border-radius:999px;background:var(--blue2);color:var(--blue)}.meaning{margin:9px 0 5px;font-weight:650}.example{font-size:.92rem;color:var(--muted);margin:0}.example b{color:var(--ink)}.pill{border:0;background:var(--blue2);color:var(--blue);border-radius:999px;padding:7px 10px;cursor:pointer;font-weight:700}.exercise-layout{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(260px,.75fr);gap:18px}.exercise-card,.side-card{background:white;border:1px solid var(--line);border-radius:18px;padding:22px;box-shadow:0 4px 18px #18264b08}.exercise-card h3,.side-card h3{margin:0 0 8px}.progress-line{height:7px;background:#e9edf5;border-radius:99px;overflow:hidden;margin:15px 0 22px}.progress-line span{display:block;height:100%;width:0;background:var(--blue);transition:width .2s}.question-type{font-size:.75rem;text-transform:uppercase;letter-spacing:.1em;color:var(--blue);font-weight:850}.prompt{font-size:1.25rem;font-weight:750;margin:12px 0 18px}.options{display:grid;gap:9px}.option{background:white;border:1px solid var(--line);border-radius:11px;padding:12px;text-align:left;cursor:pointer;color:var(--ink)}.option:hover{border-color:var(--blue)}.option.chosen{border-color:var(--blue);background:var(--blue2)}.option.correct{border-color:#5ab78b;background:var(--greenbg)}.option.wrong{border-color:#f29c96;background:var(--redbg)}.answer-row{display:flex;gap:8px;flex-wrap:wrap}.answer-row .answer-input{flex:1;min-width:160px}.primary{background:var(--blue);color:white;border:0;border-radius:10px;padding:11px 16px;font-weight:750;cursor:pointer}.secondary{background:white;color:var(--ink);border:1px solid var(--line);border-radius:10px;padding:10px 14px;font-weight:700;cursor:pointer}.primary:disabled,.secondary:disabled{opacity:.5;cursor:not-allowed}.feedback{padding:12px 14px;border-radius:11px;margin:14px 0 0;display:none}.feedback.show{display:block}.feedback.good{background:var(--greenbg);color:var(--green)}.feedback.bad{background:var(--redbg);color:var(--red)}.flashcard{min-height:210px;border:2px dashed #bdc9f8;background:linear-gradient(145deg,#f8f9ff,#edf1ff);border-radius:16px;padding:25px;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;cursor:pointer}.flashcard .big{font-size:1.8rem;font-weight:850}.flashcard .small{color:var(--muted);margin-top:10px}.flash-actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:16px 0}.stat{padding:12px;background:#f6f8fc;border-radius:12px;text-align:center}.stat strong{display:block;font-size:1.35rem}.small-note{font-size:.88rem;color:var(--muted)}footer{text-align:center;color:var(--muted);padding:20px}.hide{display:none!important}@media(max-width:750px){.exercise-layout{grid-template-columns:1fr}.exercise-card,.side-card{padding:17px}.stats{grid-template-columns:repeat(3,1fr)}}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <div class="eyebrow">Deutsch für den Beruf · B1–B2</div>
+    <h1>Wortschatz-Gym</h1>
+    <p>Festige deine Deutschkenntnisse für Bewerbungen, Eventmarketing, Teamarbeit und Vorstellungsgespräche. Lerne wichtige Begriffe und verfeinere deine Grammatik mit interaktiven Übungen.</p>
+  </div>
+</header>
+<main>
+<nav class="tabs" aria-label="Hauptnavigation">
+  <button class="tab active" data-panel="vocabulary">Wortschatzliste</button>
+  <button class="tab" data-panel="flashcards">Karteikarten</button>
+  <button class="tab" data-panel="quiz">Gemischtes Training</button>
+  <button class="tab" data-panel="translate">Übersetzen & Umformulieren</button>
+</nav>
+
+<!-- PANEL 1: VOCABULARY LIST -->
+<section class="panel active" id="vocabulary">
+  <div class="section-head">
+    <div>
+      <h2>Wichtiger Wortschatz</h2>
+      <div class="muted">Fachbegriffe, Verben mit Präpositionen und Nomen aus dem Bewerbungsschreiben.</div>
+    </div>
+    <div class="filters">
+      <input id="search" placeholder="Wort suchen…" aria-label="Wortschatz durchsuchen">
+      <select id="category" aria-label="Kategorie filtern">
+        <option value="all">Alle Kategorien</option>
+        <option value="Verb">Verben</option>
+        <option value="Nomen">Nomen</option>
+        <option value="Verb + Präp.">Verben mit Präposition</option>
+        <option value="Ausdruck">Ausdrücke</option>
+      </select>
+    </div>
+  </div>
+  <div id="vocabGrid" class="vocab-grid"></div>
+</section>
+
+<!-- PANEL 2: FLASHCARDS -->
+<section class="panel" id="flashcards">
+  <div class="section-head">
+    <div>
+      <h2>Karteikarten</h2>
+      <div class="muted">Überlege die Bedeutung oder Übersetzung, bevor du die Karte wendest.</div>
+    </div>
+    <span id="flashCount" class="tag">Karte 1</span>
+  </div>
+  <div class="exercise-card">
+    <div class="flashcard" id="flashcard" role="button" tabindex="0" aria-label="Karteikarte aufdecken">
+      <div class="question-type">Deutsch → Englisch / Erklärung</div>
+      <div class="big" id="flashFront">durchführen</div>
+      <div class="small" id="flashBack" hidden>carry out, execute</div>
+      <div class="small" id="flashHint">Klicken oder Eingabetaste drücken zum Aufdecken</div>
+    </div>
+    <div class="flash-actions">
+      <button class="secondary" id="flashPrev">← Zurück</button>
+      <button class="primary" id="flashReveal">Antwort aufdecken</button>
+      <button class="secondary" id="flashNext">Weiter →</button>
+      <button class="pill" id="shuffle">Karten mischen</button>
+    </div>
+  </div>
+</section>
+
+<!-- PANEL 3: MIXED QUIZ -->
+<section class="panel" id="quiz">
+  <div class="section-head">
+    <div>
+      <h2>Gemischtes Training</h2>
+      <div class="muted">Lücken ausfüllen, Präpositionen wählen oder Bedeutungen verstehen.</div>
+    </div>
+    <button class="secondary" id="restartQuiz">Neustart</button>
+  </div>
+  <div class="exercise-layout">
+    <div class="exercise-card">
+      <div class="question-type" id="qType">Lückentext</div>
+      <div class="progress-line"><span id="progress"></span></div>
+      <div class="small-note" id="qNumber">Frage 1 von 10</div>
+      <div class="prompt" id="question">Lade Übung…</div>
+      <div id="answerArea"></div>
+      <div class="feedback" id="feedback" role="status"></div>
+      <div class="flash-actions">
+        <button class="primary" id="checkAnswer">Antwort prüfen</button>
+        <button class="secondary" id="nextQuestion" disabled>Nächste Frage →</button>
+      </div>
+    </div>
+    <aside class="side-card">
+      <h3>Dein Fortschritt</h3>
+      <div class="stats">
+        <div class="stat"><strong id="score">0</strong><span class="small-note">Richtig</span></div>
+        <div class="stat"><strong id="attempts">0</strong><span class="small-note">Geprüft</span></div>
+        <div class="stat"><strong id="percent">0%</strong><span class="small-note">Quote</span></div>
+      </div>
+      <p class="small-note">Tipp: Sprich den gesamten Satz nach dem Überprüfen laut aus. Das stärkt dein Sprachgefühl für Grammatik und Wortschatz gleichzeitig!</p>
+    </aside>
+  </div>
+</section>
+
+<!-- PANEL 4: TRANSLATE & REWRITE -->
+<section class="panel" id="translate">
+  <div class="section-head">
+    <div>
+      <h2>Übersetzen & Umformulieren</h2>
+      <div class="muted">Schreibe deine eigene Lösung und vergleiche sie anschließend mit dem Vorschlag.</div>
+    </div>
+  </div>
+  <div class="exercise-layout">
+    <div class="exercise-card">
+      <div class="question-type">Ins Deutsche übersetzen</div>
+      <div class="prompt" id="translationPrompt">I am responsible for planning and carrying out events.</div>
+      <textarea id="translationAnswer" class="answer-input" rows="3" style="width:100%;resize:vertical" placeholder="Deine deutsche Übersetzung …"></textarea>
+      <div class="flash-actions">
+        <button class="primary" id="showTranslation">Musterlösung anzeigen</button>
+        <button class="secondary" id="newTranslation">Nächster Satz</button>
+      </div>
+      <div class="feedback good" id="translationSolution"></div>
+
+      <hr style="border:0;border-top:1px solid var(--line);margin:24px 0">
+
+      <div class="question-type">Satz umformulieren (Formaler Stil)</div>
+      <div class="prompt" id="rewritePrompt">Formuliere um mit „sich freuen auf“: Ich möchte Sie sehr gerne persönlich treffen.</div>
+      <textarea id="rewriteAnswer" class="answer-input" rows="2" style="width:100%;resize:vertical" placeholder="Schreibe den umformulierten Satz …"></textarea>
+      <div class="flash-actions">
+        <button class="primary" id="showRewrite">Musterlösung anzeigen</button>
+        <button class="secondary" id="newRewrite">Nächste Übung</button>
+      </div>
+      <div class="feedback good" id="rewriteSolution"></div>
+    </div>
+    <aside class="side-card">
+      <h3>Nützliche Satzbausteine</h3>
+      <p><b>Verantwortlich sein für …</b><br><span class="muted">Ich bin für die Organisation verantwortlich.</span></p>
+      <p><b>Erfahrung haben in … (+ Dat.)</b><br><span class="muted">Ich habe Erfahrung im Eventmarketing.</span></p>
+      <p><b>Sich freuen über / auf …</b><br><span class="muted">Über eine Einladung freue ich mich sehr.</span></p>
+      <p><b>Eintrittstermin / Verfügbarkeit</b><br><span class="muted">Die Tätigkeit könnte ich ab dem 1. Juli aufnehmen.</span></p>
+      <p><b>Kenntnisse vertiefen</b><br><span class="muted">Ich konnte meine Sprachkenntnisse weiter vertiefen.</span></p>
+    </aside>
+  </div>
+</section>
+</main>
+<footer>Wortschatz-Gym · Deutsch lernen für den Beruf.</footer>
+
+<script>
+// Vocabulary database in German
+const vocab = [
+  ["durchführen", "Verb", "to carry out / execute", "Ich führe anspruchsvolle Events durch."],
+  ["sich bewerben um", "Verb + Präp.", "to apply for", "Ich bewerbe mich um die Stelle als Eventmanagerin."],
+  ["sich freuen auf / über", "Verb + Präp.", "to look forward to / be happy about", "Ich freue mich über Ihre Einladung."],
+  ["zusammenarbeiten mit", "Verb + Präp.", "to work together with", "Ich arbeite gerne mit kreativen Teams zusammen."],
+  ["einbringen in", "Verb + Präp.", "to contribute to", "Ich möchte meine Erfahrungen in Ihr Unternehmen einbringen."],
+  ["aufnehmen", "Verb", "to begin / take up (a job)", "Ich kann die Tätigkeit ab dem 1. Juli aufnehmen."],
+  ["organisieren", "Verb", "to organize", "Wir organisieren Veranstaltungen im In- und Ausland."],
+  ["vertiefen", "Verb", "to deepen / enhance", "Im Auslandssemester konnte ich meine Sprachkenntnisse vertiefen."],
+  ["verhandeln", "Verb", "to negotiate", "Ich bin verhandlungssicher in Englisch und Französisch."],
+  ["zeigen", "Verb", "to show / demonstrate", "Meine Berufserfahrung hat mir gezeigt, dass ich teamfähig bin."],
+
+  ["die Erfahrung", "Nomen", "experience", "Ich habe umfangreiche Erfahrungen im Eventbereich."],
+  ["die Verantwortung", "Nomen", "responsibility", "Ich übernehme gerne die Verantwortung für Projekte."],
+  ["die Kenntnisse (Pl.)", "Nomen", "knowledge / skills", "Meine Englischkenntnisse sind sehr gut."],
+  ["die Bewerbung", "Nomen", "application", "Vielen Dank für das Interesse an meiner Bewerbung."],
+  ["die Stelle / Position", "Nomen", "position / job", "Diese Stelle passt ideal zu meinem Profil."],
+  ["die Veranstaltung", "Nomen", "event", "Die Veranstaltung findet nächsten Monat statt."],
+  ["die Durchführung", "Nomen", "execution / implementation", "Die Durchführung verlangt eine gute Planung."],
+  ["das Budget", "Nomen", "budget", "Das Projekt lag stets im vorgegebenen Budget."],
+  ["die Fähigkeit", "Nomen", "skill / ability", "Zu meinen Stärken gehören organisatorische Fähigkeiten."],
+  ["das Vorstellungsgespräch", "Nomen", "job interview", "Ich freue mich auf ein persönliches Vorstellungsgespräch."],
+
+  ["verhandlungssicher", "Ausdruck", "business fluent", "Ich spreche verhandlungssicheres Englisch."],
+  ["zielorientiert", "Ausdruck", "goal-oriented", "Sie suchen eine zielorientiert arbeitende Managerin."],
+  ["teamfähig", "Ausdruck", "team player", "In meinen bisherigen Jobs war ich sehr teamfähig."],
+  ["selbstständig", "Ausdruck", "independent / self-directed", "Ich arbeite sehr selbstständig und strukturiert."],
+  ["im Rahmen (+ Gen.)", "Ausdruck", "within the scope of", "Im Rahmen meines Studiums habe ich Projekte geleitet."]
+];
+
+const grid = document.getElementById('vocabGrid');
+
+function renderVocab() {
+  const term = document.getElementById('search').value.toLowerCase();
+  const cat = document.getElementById('category').value;
+  const items = vocab.filter(v => (cat === 'all' || v[1] === cat) && v.join(' ').toLowerCase().includes(term));
+  
+  grid.innerHTML = items.map(v => `
+    <article class="vocab">
+      <div class="vocab-top">
+        <span class="word">${v[0]}</span>
+        <span class="tag">${v[1]}</span>
+      </div>
+      <div class="meaning">${v[2]}</div>
+      <p class="example">${v[3]}</p>
+      <button class="pill" style="margin-top:12px" onclick="speakWord('${v[0].replace(/'/g, "\\'")}')">🔊 Anhören</button>
+    </article>
+  `).join('') || '<p>Keine passenden Wörter gefunden.</p>';
+}
+
+function speakWord(word) {
+  if ('speechSynthesis' in window) {
+    speechSynthesis.cancel();
+    const utterance = new SpeechSynthesisUtterance(word);
+    utterance.lang = 'de-DE';
+    speechSynthesis.speak(utterance);
+  }
+}
+
+document.getElementById('search').addEventListener('input', renderVocab);
+document.getElementById('category').addEventListener('change', renderVocab);
+renderVocab();
+
+// Tab switching logic
+document.querySelectorAll('.tab').forEach(btn => btn.addEventListener('click', () => {
+  document.querySelectorAll('.tab').forEach(b => b.classList.toggle('active', b === btn));
+  document.querySelectorAll('.panel').forEach(p => p.classList.toggle('active', p.id === btn.dataset.panel));
+}));
+
+// Flashcard Deck logic
+let deck = [...vocab], flashIndex = 0, flipped = false;
+
+function showFlash() {
+  const v = deck[flashIndex];
+  document.getElementById('flashFront').textContent = v[0];
+  document.getElementById('flashBack').textContent = v[2] + ' (' + v[1] + ')';
+  document.getElementById('flashBack').hidden = !flipped;
+  document.getElementById('flashHint').hidden = flipped;
+  document.getElementById('flashCount').textContent = `Karte ${flashIndex + 1} von ${deck.length}`;
+  document.getElementById('flashReveal').textContent = flipped ? 'Antwort verbergen' : 'Antwort aufdecken';
+}
+
+function flip() { flipped = !flipped; showFlash(); }
+document.getElementById('flashcard').addEventListener('click', flip);
+document.getElementById('flashcard').addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); flip(); } });
+document.getElementById('flashReveal').onclick = flip;
+document.getElementById('flashPrev').onclick = () => { flashIndex = (flashIndex - 1 + deck.length) % deck.length; flipped = false; showFlash(); };
+document.getElementById('flashNext').onclick = () => { flashIndex = (flashIndex + 1) % deck.length; flipped = false; showFlash(); };
+document.getElementById('shuffle').onclick = () => { deck.sort(() => Math.random() - .5); flashIndex = 0; flipped = false; showFlash(); };
+showFlash();
+
+// Quiz questions in German
+const questions = [
+  { type: 'Präpositionen', q: 'Ich bewerbe mich ___ die Stelle als Managerin.', opts: ['um', 'für', 'auf', 'an'], a: 'um', why: 'Man sagt im Deutschen: „sich bewerben um“ eine Stelle.' },
+  { type: 'Lückentext', q: 'Ich freue mich sehr ___ Ihre Einladung zum Gespräch.', opts: ['über', 'für', 'an', 'zu'], a: 'über', why: 'Bei Ereignissen, die bereits feststehen oder eingetroffen sind, nutzt man „sich freuen über“ (+ Akk.).' },
+  { type: 'Präpositionen', q: 'Ich habe bereits Erfahrung ___ Eventmarketing gesammelt.', opts: ['im', 'am', 'zum', 'ins'], a: 'im', why: '„Erfahrung in“ + Dativ: in + dem = im.' },
+  { type: 'Bedeutung', q: 'Was bedeutet „verhandlungssicher“?', opts: ['sehr gute Sprachkenntnisse im Beruf', 'unsicher beim Sprechen', 'bereit für Gehaltsverhandlungen', 'nur schriftlich gut'], a: 'sehr gute Sprachkenntnisse im Beruf', why: 'Verhandlungssicher bedeutet, dass man eine Sprache im beruflichen Kontext fließend beherrscht.' },
+  { type: 'Verbformen', q: 'Die Tätigkeit könnte ich ab dem 1. Juli ___.', opts: ['aufnehmen', 'annehmen', 'mitnehmen', 'ausnehmen'], a: 'aufnehmen', why: 'Man sagt eine Arbeit/Tätigkeit „aufnehmen“ (beginnen).' },
+  { type: 'Lückentext', q: 'Im Studium konnte ich meine Französischkenntnisse weiter ___.', opts: ['vertiefen', 'vergrößern', 'hören', 'aufbauen'], a: 'vertiefen', why: 'Kenntnisse oder Wissen kann man „vertiefen“.' },
+  { type: 'Bedeutung', q: 'Was ist die beste Bedeutung für „die Durchführung“?', opts: ['execution / carrying out', 'invitation', 'job interview', 'cancellation'], a: 'execution / carrying out', why: 'Die Durchführung leitet sich vom Verb „durchführen“ ab.' },
+  { type: 'Satzbau', q: 'Ich möchte meine Erfahrungen in Ihr Unternehmen ___.', opts: ['einbringen', 'mitbringen', 'vorbringen', 'anbringen'], a: 'einbringen', why: '„Erfahrungen / Kenntnisse einbringen“ ist eine typische Formulierung in Bewerbungen.' },
+  { type: 'Präpositionen', q: '___ Anrede und Einleitung folgt die Vorstellung der Person.', opts: ['Nach', 'Vor', 'Zu', 'Mit'], a: 'Nach', why: 'Chronologische Reihenfolge im Bewerbungsschreiben: Erst die Anrede, danach die Vorstellung.' },
+  { type: 'Grammatik', q: 'Ich bin es gewohnt, ___ Team zu arbeiten.', opts: ['im', 'am', 'auf dem', 'zum'], a: 'im', why: 'Es heißt feststehend: „im Team arbeiten“ (in + dem Team).' }
+];
+
+let qi = 0, score = 0, attempts = 0, chosen = '', checked = false;
+
+function renderQ() {
+  const q = questions[qi];
+  chosen = ''; checked = false;
+  document.getElementById('qType').textContent = q.type;
+  document.getElementById('qNumber').textContent = `Frage ${qi + 1} von ${questions.length}`;
+  document.getElementById('progress').style.width = (qi / questions.length * 100) + '%';
+  document.getElementById('question').textContent = q.q;
+  document.getElementById('feedback').className = 'feedback';
+  document.getElementById('feedback').textContent = '';
+  document.getElementById('nextQuestion').disabled = true;
+  document.getElementById('checkAnswer').disabled = false;
+  document.getElementById('answerArea').innerHTML = '<div class="options">' + q.opts.map(o => `<button class="option" type="button">${o}</button>`).join('') + '</div>';
+  
+  document.querySelectorAll('.option').forEach(b => b.onclick = () => {
+    if (checked) return;
+    chosen = b.textContent;
+    document.querySelectorAll('.option').forEach(x => x.classList.toggle('chosen', x === b));
+  });
+  updateStats();
+}
+
+function updateStats() {
+  document.getElementById('score').textContent = score;
+  document.getElementById('attempts').textContent = attempts;
+  document.getElementById('percent').textContent = attempts ? Math.round(score / attempts * 100) + '%' : '0%';
+}
+
+document.getElementById('checkAnswer').onclick = () => {
+  if (checked) return;
+  if (!chosen) {
+    document.getElementById('feedback').className = 'feedback show bad';
+    document.getElementById('feedback').textContent = 'Bitte wähle zuerst eine Antwort aus.';
+    return;
+  }
+  checked = true;
+  attempts++;
+  const q = questions[qi], good = chosen === q.a;
+  if (good) score++;
+  
+  document.querySelectorAll('.option').forEach(b => {
+    if (b.textContent === q.a) b.classList.add('correct');
+    else if (b.textContent === chosen) b.classList.add('wrong');
+  });
+  
+  const f = document.getElementById('feedback');
+  f.className = 'feedback show ' + (good ? 'good' : 'bad');
+  f.innerHTML = (good ? 'Richtig! ' : 'Nicht ganz. ') + `<b>Richtige Antwort: ${q.a}</b><br>${q.why}`;
+  document.getElementById('checkAnswer').disabled = true;
+  document.getElementById('nextQuestion').disabled = false;
+  document.getElementById('progress').style.width = ((qi + 1) / questions.length * 100) + '%';
+  updateStats();
+};
+
+document.getElementById('nextQuestion').onclick = () => {
+  if (qi < questions.length - 1) {
+    qi++;
+    renderQ();
+  } else {
+    document.getElementById('question').textContent = `Übung abgeschlossen! Du hast ${score} von ${attempts} Aufgaben richtig gelöst.`;
+    document.getElementById('answerArea').innerHTML = '<p>Klicke auf Neustart, um noch einmal zu üben.</p>';
+    document.getElementById('feedback').className = 'feedback show good';
+    document.getElementById('feedback').textContent = 'Super gemacht!';
+    document.getElementById('checkAnswer').disabled = true;
+    document.getElementById('nextQuestion').disabled = true;
+    document.getElementById('progress').style.width = '100%';
+  }
+};
+
+document.getElementById('restartQuiz').onclick = () => { qi = 0; score = 0; attempts = 0; renderQ(); };
+renderQ();
+
+// Translation Exercises
+const translations = [
+  ['I am responsible for planning and carrying out events.', 'Ich bin für die Planung und Durchführung von Veranstaltungen verantwortlich.'],
+  ['I have extensive experience in event marketing.', 'Ich habe umfangreiche Erfahrungen im Eventmarketing.'],
+  ['I enjoy working in a team and developing new ideas.', 'Ich arbeite gerne im Team und entwickle neue Ideen.'],
+  ['I would be delighted to meet you in person.', 'Über eine Einladung zu einem persönlichen Gespräch freue ich mich sehr.'],
+  ['My language skills include English and French.', 'Meine Sprachkenntnisse umfassen Englisch und Französisch. / Zu meinen Sprachkenntnissen gehören Englisch und Französisch.'],
+  ['I can take on new responsibilities from July onwards.', 'Ich kann ab Juli neue Aufgaben / Tätigkeiten übernehmen.']
+];
+let ti = 0;
+
+function showT() {
+  document.getElementById('translationPrompt').textContent = translations[ti][0];
+  document.getElementById('translationAnswer').value = '';
+  document.getElementById('translationSolution').className = 'feedback good';
+  document.getElementById('translationSolution').textContent = '';
+  document.getElementById('translationSolution').style.display = 'none';
+}
+
+document.getElementById('showTranslation').onclick = () => {
+  const f = document.getElementById('translationSolution');
+  f.textContent = 'Musterlösung: ' + translations[ti][1];
+  f.className = 'feedback good show';
+  f.style.display = 'block';
+};
+
+document.getElementById('newTranslation').onclick = () => { ti = (ti + 1) % translations.length; showT(); };
+showT();
+
+// Sentence Rewriting Exercises
+const rewrites = [
+  ['Formuliere um mit „sich freuen über“: Ich bin sehr froh über Ihre Einladung.', 'Über Ihre Einladung freue ich mich sehr.'],
+  ['Formuliere um mit „verantwortlich für“: Ich plane die Events in der Firma.', 'Ich bin für die Planung der Events verantwortlich.'],
+  ['Formuliere um mit „durchführen“: Wir machen nächsten Monat eine Werbekampagne.', 'Wir führen nächsten Monat eine Werbekampagne durch.'],
+  ['Formuliere um mit „Eintrittstermin“: Ich kann ab dem 1. Juli anfangen zu arbeiten.', 'Mein frühestmöglicher Eintrittstermin ist der 1. Juli. / Die Tätigkeit könnte ich ab dem 1. Juli aufnehmen.'],
+  ['Formuliere um mit „sich bewerben um“: Ich möchte mich für diese Arbeitsstelle anmelden.', 'Ich möchte mich um diese Stelle bewerben.']
+];
+let ri = 0;
+
+function showR() {
+  document.getElementById('rewritePrompt').textContent = rewrites[ri][0];
+  document.getElementById('rewriteAnswer').value = '';
+  const f = document.getElementById('rewriteSolution');
+  f.textContent = '';
+  f.className = 'feedback good';
+  f.style.display = 'none';
+}
+
+document.getElementById('showRewrite').onclick = () => {
+  const f = document.getElementById('rewriteSolution');
+  f.textContent = 'Musterlösung: ' + rewrites[ri][1];
+  f.className = 'feedback good show';
+  f.style.display = 'block';
+};
+
+document.getElementById('newRewrite').onclick = () => { ri = (ri + 1) % rewrites.length; showR(); };
+showR();
+</script>
+</body>
+</html>
